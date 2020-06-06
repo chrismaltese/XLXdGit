@@ -15,7 +15,7 @@ $CallingHome = array();
 $PageOptions = array();
 $VNStat      = array();
 
-$PageOptions['ContactEmail']                         = 'w2clm.chris (at) gmail (dot) com';	// Support E-Mail address
+$PageOptions['ContactEmail']                         = 'w2clm.chris@gmail.com';	// Support E-Mail address
 
 $PageOptions['DashboardVersion']                     = '2.4.0';		// Dashboard Version
 
