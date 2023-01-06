@@ -15,7 +15,7 @@ $CallingHome = array();
 $PageOptions = array();
 $VNStat      = array();
 
-$PageOptions['ContactEmail']                         = 'w2clm.chris (at) gmail (dot) com';	// Support E-Mail address
+$PageOptions['ContactEmail']                         = 'w4luc.chris@gmail.com';	// Support E-Mail address
 
 $PageOptions['DashboardVersion']                     = '2.4.0';		// Dashboard Version
 
@@ -36,24 +36,16 @@ $PageOptions['LastHeardPage']['LimitTo']             = 39;		// Number of station
 
 $PageOptions['ModuleNames'] = array();					// Module nomination
 $PageOptions['ModuleNames']['A'] = 'Open';
-$PageOptions['ModuleNames']['B'] = 'Private';
-$PageOptions['ModuleNames']['C'] = 'K9 SAR';
-$PageOptions['ModuleNames']['D'] = 'Data';
-$PageOptions['ModuleNames']['E'] = 'Experimental';
-$PageOptions['ModuleNames']['F'] = 'Do not use';
-$PageOptions['ModuleNames']['G'] = 'Do not use';
-$PageOptions['ModuleNames']['H'] = 'Do not use';
-$PageOptions['ModuleNames']['I'] = 'Do not use';
 
 $PageOptions['MetaDescription']                      = 'XLX is a D-Star Reflector System for Ham Radio Operators.';	// Meta Tag Values, usefull for Search Engine
 $PageOptions['MetaKeywords']                         = 'Ham Radio, D-Star, XReflector, XLX, XRF, DCS, REF, ';		// Meta Tag Values, usefull forSearch Engine
-$PageOptions['MetaAuthor']                           = 'W2CLM';								// Meta Tag Values, usefull for Search Engine
+$PageOptions['MetaAuthor']                           = 'W4LUC';								// Meta Tag Values, usefull for Search Engine
 $PageOptions['MetaRevisit']                          = 'After 30 Days';							// Meta Tag Values, usefull for Search Engine
 $PageOptions['MetaRobots']                           = 'index,follow';							// Meta Tag Values, usefull for Search Engine
 
 $PageOptions['UserPage']['ShowFilter']               = true;								// Show Filter on Users page
 $PageOptions['Traffic']['Show']                      = true;								// Enable vnstat traffic statistics
-$PageOptions['CustomTXT']                            = '  (Authorized modules: A - E)';				                        	// custom text in your header
+$PageOptions['CustomTXT']                            = '';				                        	// custom text in your header
 
 $Service['PIDFile']                                  = '/var/log/xlxd.pid';
 $Service['XMLFile']                                  = '/var/log/xlxd.xml';
@@ -63,7 +55,7 @@ $CallingHome['MyDashBoardURL']                       = 'http://xlx.bigvortex.com
 $CallingHome['ServerURL']                            = 'http://xlxapi.rlx.lu/api.php';		// database server, do not change !!!!
 $CallingHome['PushDelay']                            = 600;					// push delay in seconds
 $CallingHome['Country']                              = "United States";				// Country
-$CallingHome['Comment']                              = "Hosted by W2CLM - The East Coast High Adventure Club";			// Comment. Max 100 character
+$CallingHome['Comment']                              = "Hosted by W4LUC & WB2LMV - The East Coast High Adventure Club";			// Comment. Max 100 character
 $CallingHome['HashFile']                             = "/callhome/callinghome.php";		// Make sure the apache user has read and write permissions in this folder.
 $CallingHome['LastCallHomefile']                     = "/tmp/lastcallhome.php";			// lastcallhome.php can remain in the tmp folder
 $CallingHome['OverrideIPAddress']                    = "";					// Insert your IP address here. Leave blank for autodetection. No need to enter a fake address.
